@@ -10,12 +10,12 @@ public class Main {
         ProductComponent item3 = new ProductLeaf("Monitor", 500.0);
 
         // Pacote de periféricos
-        ProductComposite peripherals = new ProductComposite();
+        ProductComponent peripherals = new ProductComposite();
         peripherals.add(item1);
         peripherals.add(item2);
 
         // Pacote de setup completo
-        ProductComposite setup = new ProductComposite();
+        ProductComponent setup = new ProductComposite();
         setup.add(peripherals);
         setup.add(item3);
 
